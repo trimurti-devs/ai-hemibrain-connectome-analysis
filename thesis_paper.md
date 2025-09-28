@@ -106,7 +106,7 @@ Hemibrain lacks disease labels; anomalies are unsupervised proxies. Extend to AD
 Drosophila data ethical; human extensions require IRB. AI biases mitigated by diverse subsampling.
 
 ## VI. Conclusion
-This work establishes an AI pipeline for hemibrain connectome analysis, proving GNNs' utility in anomaly/ROI detection for neurobiology. Results (e.g., ROI hotspots) offer novel insights, paving the way for AD/ASD applications. Code available at [repository link].
+This work establishes an AI pipeline for hemibrain connectome analysis, proving GNNs' utility in anomaly/ROI detection for neurobiology. Results (e.g., ROI hotspots) offer novel insights, paving the way for AD/ASD applications. Code available at [[repository link](https://github.com/trimurti-devs/ai-hemibrain-connectome-analysis/tree/main)].
 
 ## References
 [1] L. K. Scheffer et al., "A connectome and analysis of the adult Drosophila central brain," eLife, vol. 9, e57443, 2020.  
@@ -129,6 +129,7 @@ This work establishes an AI pipeline for hemibrain connectome analysis, proving 
 [18] Y. Li et al., "GNN for AD classification," IEEE TBME, vol. 70, no. 2, pp. 567-578, 2023.  
 [19] neuprint-python, GitHub Repository, 2022.  
 [20] J. A. Harris et al., "Synaptic loss in AD models," Neuron, vol. 109, no. 12, pp. 1932-1945, 2021.
+
 
 
 
