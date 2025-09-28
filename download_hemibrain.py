@@ -3,7 +3,7 @@ import pandas as pd
 import networkx as nx
 
 # 🔑 Token
-TOKEN = " " #login and use the auth token the website
+TOKEN = " " #login in the website and use the auth token from own account
 
 # Step 1: Connect
 client = Client("https://neuprint.janelia.org", dataset="hemibrain:v1.2.1", token=TOKEN)
@@ -50,4 +50,5 @@ print(f"[INFO] Graph built ✅ | Nodes: {G.number_of_nodes()}, Edges: {G.number_
 
 nx.write_graphml(G, "D:/python/NEUROLOGY/hemibrain_graph.graphml")
 print("[DONE] Graph saved as hemibrain_graph.graphml ✅")
+
 
