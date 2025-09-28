@@ -130,6 +130,5 @@ This work establishes an AI pipeline for hemibrain connectome analysis, proving 
 [19] neuprint-python, GitHub Repository, 2022.  
 [20] J. A. Harris et al., "Synaptic loss in AD models," Neuron, vol. 109, no. 12, pp. 1932-1945, 2021.
 
-**Author**: [Your Name], Department of [Your Dept.], [Your Institution].  
-**Manuscript received [Date]; revised [Date].**  
-**Corresponding author: [Email].** (IEEE two-column format recommended for submission.)
+
+
