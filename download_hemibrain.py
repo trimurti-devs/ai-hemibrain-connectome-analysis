@@ -3,7 +3,7 @@ import pandas as pd
 import networkx as nx
 
 # 🔑 Token
-TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFiaGlzaGVrZ2hvc2hoZXRjNzEyMTAyQGdtYWlsLmNvbSIsImxldmVsIjoibm9hdXRoIiwiaW1hZ2UtdXJsIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSXlWZWc4eTF5bi1YeG1uYmhwZjRta1Y2TEkxdVZUcERCdXljLU5Sc1NING1nLXRRPXM5Ni1jP3N6PTUwP3N6PTUwIiwiZXhwIjoxOTM4OTU3MDUzfQ.0aR4WDChwSdjHuBqtQ6bq5ZOhu3o0Df1qUeKDiEMGsY"
+TOKEN = " " #login and use the auth token the website
 
 # Step 1: Connect
 client = Client("https://neuprint.janelia.org", dataset="hemibrain:v1.2.1", token=TOKEN)
@@ -50,3 +50,4 @@ print(f"[INFO] Graph built ✅ | Nodes: {G.number_of_nodes()}, Edges: {G.number_
 
 nx.write_graphml(G, "D:/python/NEUROLOGY/hemibrain_graph.graphml")
 print("[DONE] Graph saved as hemibrain_graph.graphml ✅")
+
